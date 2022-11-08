@@ -1,0 +1,8 @@
+<script>
+const loopAndConsoleLog = (i = 0) => {
+    console.log('loop', i)
+    setTimeout(() => loopAndConsoleLog(i+1), 1000)
+}
+setTimeout(() => loopAndConsoleLog(), 1000)
+</script>
+hello world
